@@ -10,9 +10,10 @@
   display: flex;
   gap: 20px;
 }
+
 .listSearch {
   flex: 1;
-  background-color: rgb(234, 176, 18);
+  background-color: #febb02;
   padding: 10px;
   border-radius: 10px;
   position: sticky;
@@ -37,13 +38,12 @@
   font-size: 12px;
 }
 
-.isItem > input {
+.lsItem > input {
   height: 30px;
   border: none;
   padding: 5px;
 }
-
-.isItem > span {
+.lsItem > span {
   height: 30px;
   padding: 5px;
   background-color: white;
@@ -52,11 +52,11 @@
   cursor: pointer;
 }
 
-.isOptions {
+.lsOptions {
   padding: 10px;
 }
 
-.isOptionItem {
+.lsOptionItem {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -64,14 +64,14 @@
   font-size: 12px;
 }
 
-.isOptionInput {
+.lsOptionInput {
   width: 50px;
 }
 
 .listSearch > button {
   padding: 10px;
-  background-color: orange;
-  color: black;
+  background-color: rgb(216, 97, 12);
+  color: white;
   border: none;
   width: 100%;
   font-weight: 500;
